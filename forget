@@ -1,0 +1,221 @@
+
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml" class="dark-mode">
+<head><title>
+	CAT With FISH
+</title><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon icon-->
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+
+    <!-- Core Css -->
+    <link rel="stylesheet" href="login/css/styles.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style type="text/css">
+        @font-face {
+            font-family: norwester;
+            src: url(assets/fonts/norwester.otf);
+        }
+
+        @font-face {
+            font-family: bangers;
+            src: url(assets/fonts/bangers.regular.ttf);
+        }
+
+        .bg-col {
+            background-image: url('assets/images/beems.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .authentication-login {
+            height: 100%;
+        }
+
+            .authentication-login h2 {
+                margin-bottom: 22px !important;
+                font-family: 'bangers';
+                color: #6b0079;
+                font-size: 64px;
+                font-weight: normal;
+                font-style: normal;
+                text-decoration: none;
+                letter-spacing: 2px;
+                word-spacing: normal;
+                text-transform: none;
+                font-weight: 900;
+            }
+
+            body::-webkit-scrollbar{
+                display:none;
+            }
+
+        .sub-title {
+            font-family: norwester;
+            font-size: 16px;
+            color: #570062;
+        }
+        .logo-img{
+            text-align:center;
+        }
+
+        .theme-button {
+            font-family: 'norwester';
+            color: #e4c600;
+            font-size: 25px;
+            text-shadow: none;
+            line-height: normal;
+            font-style: normal;
+            text-decoration: none;
+            text-align: center;
+            letter-spacing: normal;
+            word-spacing: normal;
+            text-transform: none;
+            font-weight: 400;
+            background: RGBA(87, 0, 98, 1);
+            transition: all ease-in;
+            opacity: 1;
+            padding: 12px 20px 10px 20px;
+            box-shadow: none;
+            border: 0px solid RGBA(0, 0, 0, 1);
+            border-radius: 10px;
+            display: block;
+            margin-top: 30px;
+        }
+
+            .theme-button:hover {
+                border: 1px solid RGBA(87, 0, 98, 1);
+                background-color: #ffffff;
+                color: #570062;
+                box-shadow: 0px 1px 9px 0px #570062eb;
+            }
+
+        .yellow-text {
+            color: #f6e00b;
+            text-shadow: 0px 4px 0px RGBA(0, 0, 0, 1);
+        }
+
+
+        .signin-link {
+            color: #570062;
+            font-family: 'norwester';
+            font-size: 18px;
+        }
+
+            .signin-link .yellow-text {
+                text-shadow: none;
+            }
+
+                .signin-link .yellow-text:hover {
+                    color: #570062;
+                    text-shadow: none;
+                }
+
+        .form-control:focus {
+            border-color: #690077;
+        }
+
+        .dark-logo {
+            max-width: 150px;
+        }
+
+        .form-control {
+            padding: 10px 32px;
+        }
+
+        .icon {
+            position: relative;
+            bottom: 32px;
+            left: 12px;
+            color: #570062;
+        }
+
+        .home-button {
+            display: initial;
+            color: white;
+            border-radius: 53px !important;
+            font-size: 13px;
+        }
+
+        @media only screen and (max-width:800px) {
+            .authentication-login h2 {
+                font-size: 35px;
+            }
+        }
+    </style>
+    
+    <script type="text/javascript">
+        function validate() {
+            if (document.getElementById('ctl00_ContentPlaceHolder1_txt_mob').value == "") {
+                alert("Enter Login Id !");
+                document.getElementById('ctl00_ContentPlaceHolder1_txt_mob').focus();
+                return false;
+            }
+            document.getElementById('ctl00_ContentPlaceHolder1_btn_recover').style.display = "none";
+        }
+    </script>
+
+    <style type="text/css">
+        .theme-button {
+            margin-top:10px;
+        }
+    </style>
+<meta property="og:image" itemprop="image" content="https://catwithfish.live/dark-logo.png" /><meta property="og:title" content="CAT With FISH" /><meta property="og:description" content="CAT With FISH" /></head>
+<body class="bg-black body-clip">
+    <form name="aspnetForm" method="post" action="./forget" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTQ5MTE2MTExNw8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBZGTJgppconx8oU3J7BZhhQwA6So/1A==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A0FAD022" />
+
+        <div id="main-wrapper" class="auth-customizer-none">
+            <div class="position-relative overflow-hidden radial-gradient min-vh-100 w-100">
+                <div class="position-relative z-index-5">
+                    <div class="row">
+                        <div class="col-xl-7 col-xxl-8 bg-col">
+                            <a href="default.aspx" class="text-nowrap logo-img d-block px-4 py-9 w-100">
+                                <img src="logo.png" class="img-fluid dark-logo" alt="Logo-Dark" />
+                            </a>
+                            <div class="d-none d-xl-flex align-items-center justify-content-center h-n80">
+                                <img src="assets/images/login-main.png" style="border-radius:50%;" alt="modernize-img" class="img-fluid" width="500">
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-xxl-4">
+                            <div class="authentication-login bg-body row justify-content-center align-items-center p-4">
+                                <div class="auth-max-width col-sm-8 col-md-6 col-xl-7 px-4">
+                                    
+
+
+    <h4 class="h4 fw-bold mb-2 clr-neutral-90 mt-8 mt-5 text-center"></h4>
+
+       <h2 class="fw-bolder">Forgot Your <span class="yellow-text">Password?</span></h2>
+   
+    <p class="sub-title">Password Reset Confirmation: Keep an Eye on your Inbox</p>
+
+
+    <div class="form-group mt-8">
+
+        <label class="form-label">Enter Your Username or Email</label>
+         <div class="pass-field-area">
+            <input name="ctl00$ContentPlaceHolder1$txt_mob" type="text" maxlength="60" id="ctl00_ContentPlaceHolder1_txt_mob" Placeholder="Enter Your Username or Email" class="form-control" autocomplete="off" />
+             <div class="bg-transparent border-0 input-icon">
+                 <i class="fa-solid fa-user icon"></i>
+             </div>
+        </div>
+    </div> 
+    <input type="submit" name="ctl00$ContentPlaceHolder1$btn_recover" value="Reset" onclick="return validate();" id="ctl00_ContentPlaceHolder1_btn_recover" class="theme-button w-100 mb-3 rounded-2" />
+    <a class="signin-link fw-medium ms-2 " href="/signup">Don't have an Account?&nbsp<span class="yellow-text">Register</span></a>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+
+</body>
+</html>
